@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme{
+    --light-blue : #C5DFFF;
+    --dark-blue : #061E3C;
+    --hover-blue: #1057B0;
+    --font-display : "Inter", "sans-serif";
+    --animate-shake-bell: shake-bell 310ms ease-in-out infinite alternate;
+    
+    @keyframes shake-bell {
+        50% {
+            transform: rotate(10deg);
+        }
+        0% ,100% {
+            transform: rotate(-10deg);
+        }
+}
+}
